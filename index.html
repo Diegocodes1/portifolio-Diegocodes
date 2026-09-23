@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diego Silva | Developer Back-End &amp; IT Support</title>
+  <meta name="description" content="Portfólio de Diego Silva, estudante de Análise e Desenvolvimento de Sistemas em busca de estágio ou vaga júnior em back-end e suporte de TI. Projetos com Node.js, Express, MySQL e Docker.">
+  <meta name="author" content="Diego Silva">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Diego Silva | Developer Back-End & IT Support">
+  <meta property="og:description" content="Estudante de ADS construindo projetos práticos em back-end e suporte de TI, em busca de estágio ou vaga júnior.">
+  <meta property="og:locale" content="pt_BR">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#home" class="logo">Diego<span>Codes 💻</span></a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Abrir menu</span>
+        <span class="menu-icon" aria-hidden="true"></span>
+      </button>
+
+      <nav id="navbar" class="navbar">
+        <a href="#sobre">Sobre</a>
+        <a href="#tecnologias">Tecnologias</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <h1>Diego Silva</h1>
+          <p class="hero-role">Developer Back-End <span aria-hidden="true">|</span> IT Support</p>
+
+          <p class="hero-desc">
+            Estudante de Análise e Desenvolvimento de Sistemas, construindo projetos práticos em
+            back-end e me preparando para minha primeira oportunidade em tecnologia — como
+            estagiário ou desenvolvedor júnior.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projetos" class="btn-primary">Ver projetos</a>
+            <a href="#contato" class="btn-secondary">Entrar em contato</a>
+          </div>
+
+          <dl class="hero-facts">
+            <div>
+              <dt>Formação</dt>
+              <dd>ADS em andamento</dd>
+            </div>
+            <div>
+              <dt>Foco</dt>
+              <dd>Back-end &amp; IT Support</dd>
+            </div>
+            <div>
+              <dt>Disponibilidade</dt>
+              <dd>Estágio / Júnior</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="illustration-card">
+            <svg class="dev-illustration" viewBox="0 0 440 480" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0" y="0" width="440" height="480" rx="20" fill="#1B1E26"/>
+
+              <!-- trilhas de circuito decorativas -->
+              <g opacity=".18" stroke="#5C8DFF" stroke-width="2" fill="none">
+                <path d="M28 40 H80 V70"/>
+                <path d="M412 60 H360 V95"/>
+                <path d="M30 420 H90"/>
+              </g>
+              <g opacity=".5" fill="#5C8DFF">
+                <circle cx="80" cy="70" r="3"/>
+                <circle cx="360" cy="95" r="3"/>
+                <circle cx="90" cy="420" r="3"/>
+              </g>
+
+              <!-- sparkles estilo anime -->
+              <path d="M64 54 L68 64 L78 68 L68 72 L64 82 L60 72 L50 68 L60 64 Z" fill="#FFFFFF" opacity=".85"/>
+              <path d="M392 130 L395 138 L403 141 L395 144 L392 152 L389 144 L381 141 L389 138 Z" fill="#5C8DFF" opacity=".8"/>
+              <path d="M46 250 L48 256 L54 258 L48 260 L46 266 L44 260 L38 258 L44 256 Z" fill="#5C8DFF" opacity=".6"/>
+
+              <!-- sombra do robô -->
+              <ellipse cx="220" cy="432" rx="130" ry="14" fill="#000000" opacity=".3"/>
+
+              <!-- antena -->
+              <line x1="220" y1="52" x2="220" y2="76" stroke="#5C8DFF" stroke-width="4" stroke-linecap="round"/>
+              <circle cx="220" cy="46" r="6" fill="#5C8DFF"/>
+
+              <!-- cabeça -->
+              <rect x="170" y="78" width="100" height="88" rx="28" fill="#C7CCD6"/>
+              <rect x="182" y="100" width="76" height="46" rx="18" fill="#0B0C10"/>
+
+              <!-- olhos brilhantes -->
+              <rect x="194" y="114" width="14" height="20" rx="7" fill="#5C8DFF"/>
+              <rect x="232" y="114" width="14" height="20" rx="7" fill="#5C8DFF"/>
+              <circle cx="200" cy="119" r="2.2" fill="#FFFFFF"/>
+              <circle cx="238" cy="119" r="2.2" fill="#FFFFFF"/>
+
+              <!-- bochechas -->
+              <ellipse cx="187" cy="136" rx="8" ry="5" fill="#FF8FA3" opacity=".35"/>
+              <ellipse cx="253" cy="136" rx="8" ry="5" fill="#FF8FA3" opacity=".35"/>
+
+              <!-- corpo -->
+              <rect x="160" y="168" width="120" height="106" rx="26" fill="#B7BECC"/>
+              <rect x="196" y="190" width="48" height="34" rx="8" fill="#0B0C10"/>
+              <text x="220" y="213" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="16" fill="#5C8DFF">&lt;/&gt;</text>
+
+              <!-- braços -->
+              <path d="M168 232 Q136 252 148 280" stroke="#B7BECC" stroke-width="16" fill="none" stroke-linecap="round"/>
+              <path d="M272 232 Q304 252 292 280" stroke="#B7BECC" stroke-width="16" fill="none" stroke-linecap="round"/>
+              <circle cx="148" cy="282" r="10" fill="#C7CCD6"/>
+              <circle cx="292" cy="282" r="10" fill="#C7CCD6"/>
+
+              <!-- laptop -->
+              <rect x="150" y="224" width="140" height="60" rx="8" fill="#0B0C10" stroke="#33384A" stroke-width="2"/>
+              <rect x="162" y="236" width="58" height="5" rx="2.5" fill="#5C8DFF"/>
+              <rect x="162" y="246" width="86" height="5" rx="2.5" fill="#8FE3A0"/>
+              <rect x="162" y="256" width="46" height="5" rx="2.5" fill="#E5B84D"/>
+              <rect x="162" y="266" width="64" height="5" rx="2.5" fill="#6B7280"/>
+              <rect x="232" y="266" width="4" height="5" fill="#5C8DFF"/>
+              <rect x="138" y="284" width="164" height="13" rx="6" fill="#12151C" stroke="#262A33"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="section-head">
+        <h2>Sobre mim</h2>
+      </div>
+
+      <div class="about-text">
+        <p>
+          Sou estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento
+          back-end. Pratico o que aprendo construindo projetos reais com JavaScript, Node.js,
+          Express, MySQL, SQLite, Git/GitHub e Docker — além de noções de front-end e
+          experiência com suporte de TI.
+        </p>
+        <p>
+          Atualmente estou em busca de uma vaga de estágio ou de desenvolvedor júnior, onde eu
+          possa aplicar o que já sei, aprender com quem tem mais experiência e evoluir
+          trabalhando em projetos reais.
+        </p>
+      </div>
+    </section>
+
+    <section id="tecnologias" class="section">
+      <div class="section-head">
+        <h2>Tecnologias</h2>
+      </div>
+
+      <div class="tech-groups">
+        <div class="tech-group">
+          <h3>Back-end</h3>
+          <ul class="tech-tags">
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+          </ul>
+        </div>
+
+        <div class="tech-group">
+          <h3>Banco de dados</h3>
+          <ul class="tech-tags">
+            <li>MySQL</li>
+            <li>SQLite</li>
+          </ul>
+        </div>
+
+        <div class="tech-group">
+          <h3>Ferramentas</h3>
+          <ul class="tech-tags">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Docker</li>
+            <li>APIs REST</li>
+          </ul>
+        </div>
+
+        <div class="tech-group">
+          <h3>Web &amp; suporte</h3>
+          <ul class="tech-tags">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Aplicações com IA</li>
+            <li>Suporte de TI</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="section-head">
+        <h2>Projetos</h2>
+        <p class="section-lead">
+          Projetos práticos que venho construindo para aprender e aplicar back-end,
+          organização de dados e suporte de TI.
+        </p>
+      </div>
+
+      <h3 class="group-title">Em destaque</h3>
+      <div class="featured-projects">
+
+        <article class="project-featured">
+          <div class="project-top">
+            <h4>DevIA00</h4>
+            <a href="https://dev-ia-00.vercel.app/" target="_blank" rel="noopener noreferrer">
+              Ver projeto <span aria-hidden="true">&rarr;</span>
+            </a>
+          </div>
+          <p>
+            Plataforma de mentoria para desenvolvedores em formação, reunindo organização de
+            estudos, revisão de currículo, simulação de entrevistas técnicas e suporte por IA
+            em uma interface web completa.
+          </p>
+          <ul class="tag-list">
+            <li>Node.js</li><li>Express.js</li><li>React</li><li>APIs REST</li>
+            <li>Autenticação</li><li>Banco de dados</li><li>Vercel</li>
+          </ul>
+        </article>
+
+        <article class="project-featured">
+          <div class="project-top">
+            <h4>Dashboard de Suporte de TI</h4>
+            <a href="https://dashboard-suporteti.netlify.app/" target="_blank" rel="noopener noreferrer">
+              Ver projeto <span aria-hidden="true">&rarr;</span>
+            </a>
+          </div>
+          <p>
+            Painel para acompanhamento de chamados e atividades de suporte de TI, organizando
+            informações do dia a dia em uma interface simples e direta.
+          </p>
+          <ul class="tag-list">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+        </article>
+
+        <article class="project-featured">
+          <div class="project-top">
+            <h4>Dashboard Demonstrativo</h4>
+            <a href="https://dashboard-financeiro01.netlify.app/" target="_blank" rel="noopener noreferrer">
+              Ver projeto <span aria-hidden="true">&rarr;</span>
+            </a>
+          </div>
+          <p>
+            Dashboard financeiro construído para fins de portfólio, com dados fictícios, foco
+            em organização visual de dados, layout responsivo e componentes reutilizáveis.
+          </p>
+          <ul class="tag-list">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <h3 class="group-title">Outros projetos</h3>
+      <ul class="project-list">
+        <li>
+          <a href="https://minha-escalawork.netlify.app/" target="_blank" rel="noopener noreferrer">Minha Escala</a>
+          <span>Calcula a escala de trabalho e mostra apenas os próximos dias de folga.</span>
+        </li>
+        <li>
+          <a href="https://guia-primeira-vaga.netlify.app/" target="_blank" rel="noopener noreferrer">Guia para Desenvolvedores</a>
+          <span>Site com conteúdo de apoio para quem está buscando a primeira vaga em desenvolvimento web.</span>
+        </li>
+        <li>
+          <a href="https://lista-de-tarefav1.netlify.app/" target="_blank" rel="noopener noreferrer">Lista de Tarefas</a>
+          <span>Aplicação simples para organizar tarefas do dia a dia.</span>
+        </li>
+        <li>
+          <a href="https://loja-de-petshop1.netlify.app/" target="_blank" rel="noopener noreferrer">Loja de Pet Shop</a>
+          <span>Página de loja para um cliente do segmento pet.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="section-head">
+        <h2>Contato</h2>
+        <p class="section-lead">Tem uma vaga de estágio ou júnior? Vamos conversar.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form id="formulario-contato" class="contact-form" action="https://formspree.io/f/xykrwvev" method="POST">
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input id="nome" type="text" name="nome" autocomplete="name" required>
+          </div>
+
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input id="email" type="email" name="email" autocomplete="email" required>
+          </div>
+
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" rows="5" name="mensagem" required></textarea>
+          </div>
+
+          <button type="submit">Enviar mensagem</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-links">
+          <a href="https://github.com/Diegocodes1" target="_blank" rel="noopener noreferrer">GitHub &rarr;</a>
+          <a href="https://www.linkedin.com/in/diego-silva-78b0b253/" target="_blank" rel="noopener noreferrer">LinkedIn &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-name">Diego Silva</p>
+    <p class="footer-role">Developer Back-End | IT Support</p>
+
+    <div class="socials">
+      <a href="mailto:diego.goncalves28203@gmail.com">E-mail</a>
+      <a href="https://github.com/Diegocodes1" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/diego-silva-78b0b253/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div>
+
+    <p class="footer-copy">© 2026 Diego Silva. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
